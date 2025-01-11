@@ -15,11 +15,11 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 160px;
+  padding: 12px 160px;
   gap: 169px;
   position: relative;
   background: #f5f5f5;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .nav-title {
   width: 222px;
@@ -28,7 +28,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 38px;
+  line-height: 35px;
   color: #0e0e0e;
 }
 .button-1 {
@@ -61,8 +61,8 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  width: 622px;
-  height: 326px;
+  width: 620px;
+  height: 320px;
   margin-left: 40px;
 }
 .banner-title {
@@ -82,7 +82,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 67px;
+  line-height: 50px;
   color: #0e0e0e;
 }
 .btn-primary {
@@ -102,10 +102,10 @@ nav {
   border: none;
 }
 main {
-  margin: 0 auto;
+  margin: auto;
 }
-section {
-  margin-bottom: 80px;
+section{
+  margin: 40px 0;
 }
 h2 {
   width: 1280px;
@@ -145,7 +145,6 @@ h2 {
   justify-content: space-around;
   gap: 24px;
 }
-
 .container2 {
   justify-content: center;
   flex-direction: column;
@@ -193,7 +192,7 @@ p.sec1 {
   justify-content: space-around;
   gap: 24px;
   max-width: 1280px;
-  margin: 32px auto;
+  margin: 24px auto;
 }
 .vision > .vision-box > .vision-box1 {
   align-items: flex-start;
@@ -224,7 +223,6 @@ p.sec1 {
 .vision-box3,
 h4,
 p {
-  display: block;
   color: rgba(14, 14, 14, 0.8);
 }
 .vision-box h4 {
@@ -315,13 +313,13 @@ p {
   background-color: #555555;
   color: white;
 }
-.container3{
-    background-image: url(../assets/quote-bg.png);
-    background-color: #ffffff;
-    background-repeat: no-repeat;
-    margin: 12px 0;
-    color: #0E0E0E;
-    justify-content: center;
+.container3 {
+  background-image: url(../assets/quote-bg.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  margin: 12px 0;
+  color: #0e0e0e;
+  justify-content: center;
   flex-direction: column;
   max-width: 1240px;
   height: 240px;
@@ -331,69 +329,68 @@ p {
   padding: 20px;
   border-radius: 8px;
 }
-.container3 .text-content{
-    display: block;
-    padding: 24px;
-    justify-content: center;
-    justify-items: row;
-
+.container3 .text-content {
+  display: block;
+  padding: 24px;
+  justify-content: center;
+  justify-items: row;
 }
-.container3 .text-content p{
-    color: rgba(14, 14, 14, 0.8);
-    flex-direction: column;
-    text-align: justify;
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 40px;
-    
+.container3 .text-content p {
+  color: rgba(14, 14, 14, 0.8);
+  flex-direction: column;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 40px;
 }
 
 /* Opinion-box */
-.opinion-box{
-position: relative;
+.opinion-box {
+  position: relative;
   flex-direction: column;
   align-items: flex-start;
-  padding: 10PX;
+  padding: 10px;
   gap: 30px;
   max-width: 1280px;
   height: auto;
   border: none;
   border-radius: 8px;
-  margin: 24px auto;
+  margin: 12px auto;
 }
-.opinion-box>h2{
-    padding: 30px 0;
+.opinion-box > h2 {
+  padding: 30px 0;
 }
-.table-content{
-    background-color: #ffffff;
-    border-radius: 8px;
-    position: relative;
-    justify-content: center;
-    padding: 32px;
+.table-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  justify-content: center;
+  padding: 32px;
 }
-.table-content table{
-    justify-content: center;
-    padding: 24px;
-    width: 1200px;
-    height:auto;
+.table-content table {
+  justify-content: center;
+  padding: 24px;
+  width: 1200px;
+  height: auto;
 }
-thead{
-    background: rgba(198, 228, 214, 1);
-    padding: 12px;
-    
+thead {
+  background: rgba(198, 228, 214, 1);
+  padding: 12px;
 }
-table, tr, td {
-    margin: 12px;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: 400PX;
-    text-align: left;
-    border: 1px solid #ddd;
-    border-collapse:collapse;
-    color: rgba(14, 14, 14, 1);
+table,
+tr,
+td {
+  margin: 12px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 400px;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  color: rgba(14, 14, 14, 1);
 }
-.btn-table{
-    flex-direction: row;
+.btn-table {
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -401,18 +398,17 @@ table, tr, td {
   gap: 48px;
   width: 130px;
   height: 41px;
-    background: #86e9bb;
-    border: none;
+  background: #86e9bb;
+  border: none;
   border-radius: 8px;
   color: #111111;
   font-size: 16px;
   margin: 24px;
   cursor: pointer;
 }
-.container4{
-    margin:0;
-    color: #0E0E0E;
-    justify-content: center;
+.container4 {
+  color: #0e0e0e;
+  justify-content: center;
   flex-direction: column;
   max-width: 1280px;
   height: 240px;
@@ -421,17 +417,61 @@ table, tr, td {
   margin: 0 auto;
   padding: 0px;
   border-radius: 8px;
-  border: 2px solid red;
 }
-.container4>.recent-news-title h2{
-margin-bottom: 12px;
-padding: 0;
+.container4 > .recent-news-title h2 {
+  margin-bottom: 12px;
+  padding: 0;
 }
-.container4>.recent-news-title p{
-    margin-bottom: 12px;
+.container4 > .recent-news-title p {
+  margin-bottom: 12px;
 }
-.news-content1{
-    display: flex;
-    background: #ffffff;
-    border: 2px solid green;
+.news-content1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  background: #ffffff;
+  padding: 48px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+.news-content1 > img {
+  width: 400px;
+  height: 306px;
+  background: url(../assets/satelite.png);
+  border-radius: 24px;
+}
+.news-content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 24px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 48px;
+}
+.news-content2 > img {
+  width: 400px;
+  height: 306px;
+  background: url(../assets/satelite.png);
+  border-radius: 24px;
+}
+.text-content h3 {
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  height: 48px;
+}
+.text-content h5 {
+  color: rgba(14, 14, 14, 0.7);
+  padding: 12px 0;
+}
+.container5{
+  color: #0e0e0e;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1280px;
+  height: 240px;
+  text-align: justify;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 8px;
 }
