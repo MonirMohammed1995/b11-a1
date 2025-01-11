@@ -41,6 +41,10 @@ nav {
   font-weight: bolder;
   cursor: pointer;
 }
+.button-1:hover{
+  background-color: #006a50;
+  color: white;
+}
 /* banner style */
 .banner {
   display: flex;
