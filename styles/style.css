@@ -42,6 +42,9 @@ nav {
   font-size: 20px;
   font-weight: bolder;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  
 }
 .button-1:hover {
   background-color: #006a50;
@@ -97,6 +100,13 @@ nav {
   font-size: 16px;
   font-weight: 600;
   border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #f5f5f5;
+  color: #006a50;
 }
 section {
   margin: 40px 0;
@@ -234,6 +244,8 @@ p {
   font-size: 16px;
   margin: 24px 0;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
 }
 .box-btn-1:hover {
   background-color: #555555;
@@ -248,6 +260,8 @@ p {
   font-size: 16px;
   margin: 24px 0;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
 }
 .box-btn-2:hover {
   background-color: #555555;
@@ -328,6 +342,8 @@ select {
   font-weight: 600;
   margin: 24px;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
 }
 .container4 {
   color: #0e0e0e;
@@ -398,6 +414,8 @@ select {
   font-size: 16px;
   margin: 24px 0;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
 }
 .text-content .btn-news:hover {
   background-color: #ffc239;
@@ -478,6 +496,8 @@ margin-bottom: 20px;
   font-size: 16px;
   padding: 18px 40px;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
 }
 footer{
   font-size: x-large;
