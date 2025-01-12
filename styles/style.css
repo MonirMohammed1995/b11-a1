@@ -114,7 +114,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  gap: 10px;
   width: 1280px;
   height: 324px;
   background: #ffffff;
@@ -453,7 +453,7 @@ margin-bottom: 20px;
 }
 .subscriber-box{
   background-color: rgba(198, 228, 214, 1);
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: medium;
 }
 .input-submit{
@@ -464,7 +464,7 @@ margin-bottom: 20px;
 .subscriber-box input[type="text"]{
   width: 300px;
   height: 20px;
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 12px 0px 0px 12px;
   font-size: 16px;
   padding: 18px 40px;
 }
@@ -472,21 +472,19 @@ margin-bottom: 20px;
   width: 150px;
   height: 55px;
   font-weight: 600;
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 0px 12px 12px 0px;
   background: #006A50;
   color: white;
   font-size: 16px;
   padding: 18px 40px;
   cursor: pointer;
 }
-.subscriber-box>p{
-  margin-top: 0px;
-}
 footer{
   font-size: x-large;
   text-align: center;
   background: white;
 }
-.icon>img{
-  height: 50px;
+a img{
+  gap: 10px;
+  height: 35px;
 }
